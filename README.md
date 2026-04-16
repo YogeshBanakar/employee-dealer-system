@@ -48,33 +48,26 @@ A role-based web application built using Laravel that manages Employees and Deal
 ## ⚙️ Installation Steps
 
 1. Clone the repository:
-```bash
 git clone https://github.com/YogeshBanakar/employee-dealer-system.git
 
 
 2. Navigate to the project folder:
-```bash
 cd employee-dealer-system
 
 3. Install dependencies:
-```bash
 composer install
 
 
 4. Copy .env file:
-```bash
 cp .env.example .env
 
 5. Configure database in .env
 
 6. Generate app key:
-```bash
 php artisan key: generate
 
 7. Run migrations:
-```bash
 php artisan migrate
 
 8. Start server:
-```bash
 php artisan serve
